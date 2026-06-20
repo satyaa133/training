@@ -1,3 +1,4 @@
+package Java;
 class stackk {
     int top=-1;
     int stack[]=new int[5];

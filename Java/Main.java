@@ -1,3 +1,4 @@
+package Java;
 class student {
     String name;
     int age;

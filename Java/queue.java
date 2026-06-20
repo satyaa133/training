@@ -1,3 +1,4 @@
+package Java;
 class queuee {
     int rear = -1;
     int front = 0;
