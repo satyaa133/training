@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <style>
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      background-color: #c5aaaa;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 50px;
+      border-radius: 40px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d19999;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .button-group {
+      text-align: center;
+      margin-top: 20px;
+    }
+    button {
+      background-color: #bd7028;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #9f6721;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Student Registration Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="" disabled selected>Select gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other</option>
+          <option value="preferNotToSay">Prefer not to say</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="course">Course</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select course</option>
+          <option value="science">Science</option>
+          <option value="commerce">Commerce</option>
+          <option value="arts">Arts</option>
+          <option value="engineering">Engineering</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+      </div>
+      <div class="button-group">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
