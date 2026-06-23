@@ -13,5 +13,6 @@ public class account {
         else{
             System.out.println("Insufficient balance");
         }
+        sc.close();
     }
 }

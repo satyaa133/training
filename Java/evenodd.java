@@ -10,6 +10,7 @@ public class evenodd {
         } else {
             System.out.println(num + " is odd.");
         }
+        sc.close();
 
     }
 

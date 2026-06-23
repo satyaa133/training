@@ -10,5 +10,6 @@ public class loops {
             sum += i;
         }
         System.out.println("sum is: "+sum);
+        sc.close();
     }
 }

@@ -17,7 +17,9 @@ public class prime {
         } else {
             System.out.println(num + " is not a prime number.");
         }
+        sc.close();
     }
+    
 
     static boolean isPrime(int n) {
         if (n <= 1) return false;

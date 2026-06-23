@@ -15,5 +15,7 @@ public class calculator {
             a=100*5+100*7+(a-200)*10;
         }
         System.out.println("Bill is: "+a);
+
+        sc.close();
     }
 }

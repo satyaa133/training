@@ -15,5 +15,6 @@ public class login {
         else{
             System.out.println("Not Allowed");
         }
+        sc.close();
     }
 }

@@ -22,6 +22,7 @@ public class switchcase {
             default:
                 break;
         }
+        sc.close();
 
 
         

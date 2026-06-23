@@ -20,6 +20,7 @@ public class agecheck {
         else{
             System.out.print("Not Specified");
         }
+        sc.close();
     }
     
 }

@@ -10,6 +10,8 @@ public class factorialofn {
             fact=fact*i;
         }
         System.out.println("Factorial: "+fact);
+
+        sc.close();
     }
     
 }

@@ -1,5 +1,4 @@
 package Java;
-import java.util.*;
 public class nolength {
     public static void main(String[] args) {
         int num=1234;

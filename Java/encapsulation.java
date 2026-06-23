@@ -1,5 +1,4 @@
 package Java;
-import java.util.*;
 
 class Bank {
     private String name;

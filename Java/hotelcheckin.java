@@ -31,6 +31,8 @@ public class hotelcheckin {
         System.out.println("\n-------BILL DETAILS-------\n");
         g1.Display();
         g1.Amount();
+
+        sc.close();
         
     }
     

@@ -22,5 +22,7 @@ public class grade {
             System.out.print("Fail");
         }
         System.out.print("Your mark is: "+grade);
+
+        sc.close();
     }
 }

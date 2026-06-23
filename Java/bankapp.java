@@ -49,6 +49,7 @@ public class bankapp {
             default:
                 break;
         }
+        sc.close();
         
     }
     
